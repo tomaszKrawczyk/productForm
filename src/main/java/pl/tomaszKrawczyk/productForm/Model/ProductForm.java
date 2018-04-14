@@ -11,11 +11,11 @@ public class ProductForm {
 
 
         @NotNull
-        @Size(min=2, max=30)
+        @Size(min=2, max=30, message = "Name must have at least 2 signs ")
         private String name;
 
         @NotNull
-        @Min(18)
+        @Min(value = 10, message = "Desciption must have at least 10 signs")
         private String description;
 
     public String getName() {
