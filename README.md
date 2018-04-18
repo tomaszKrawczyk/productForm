@@ -1,4 +1,4 @@
 # productForm
 
 
-https://addingproducstapp.herokuapp.com/results
+https://addingproducstapp.herokuapp.com
